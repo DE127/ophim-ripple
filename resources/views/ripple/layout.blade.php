@@ -35,6 +35,7 @@ $tops = Cache::remember('site.movies.tops', setting('site_cache_ttl', 5 * 60), f
 
 @push('header')
     <link href="/themes/ripple/css/all.css" rel="stylesheet" type="text/css" />
+    <link href="/themes/ripple/css/custom.css" rel="stylesheet" type="text/css" />
 @endpush
 
 @section('body')
@@ -113,6 +114,7 @@ $tops = Cache::remember('site.movies.tops', setting('site_cache_ttl', 5 * 60), f
         </div>
     </div>
 
+    <script src="/themes/ripple/js/custom.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://unpkg.com/flowbite@1.6.4/dist/flowbite.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js" integrity="sha512-q583ppKrCRc7N5O0n2nzUiJ+suUv7Et1JGels4bXOaMFQcamPk9HjdUknZuuFjBNs7tsMuadge5k9RzdmO+1GQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
