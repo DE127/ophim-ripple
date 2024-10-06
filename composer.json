@@ -1,11 +1,11 @@
 {
     "name": "hacoidev/ophim-ripple",
-    "description": "Ophim's ripple theme",
+    "description": "Ophim's ripple theme advanced",
     "type": "library",
     "authors": [
         {
-            "name": "hacoidev",
-            "email": "hacoi.dev@gmail.com"
+            "name": "de127",
+            "email": "nguyenhungg127@gmail.com"
         }
     ],
     "require": {
